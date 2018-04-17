@@ -1,0 +1,11 @@
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\bin\Debug\netcoreapp2.1\MyNewDotNetWeb.deps.json
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\bin\Debug\netcoreapp2.1\MyNewDotNetWeb.runtimeconfig.json
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\bin\Debug\netcoreapp2.1\MyNewDotNetWeb.runtimeconfig.dev.json
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\bin\Debug\netcoreapp2.1\MyNewDotNetWeb.dll
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\bin\Debug\netcoreapp2.1\MyNewDotNetWeb.pdb
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\obj\Debug\netcoreapp2.1\MyNewDotNetWeb.csproj.CoreCompileInputs.cache
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\obj\Debug\netcoreapp2.1\MyNewDotNetWeb.AssemblyInfoInputs.cache
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\obj\Debug\netcoreapp2.1\MyNewDotNetWeb.AssemblyInfo.cs
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\obj\Debug\netcoreapp2.1\MyNewDotNetWeb.dll
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\obj\Debug\netcoreapp2.1\MyNewDotNetWeb.pdb
+C:\Users\angel.joseph.PROD\source\repos\MyNewDotNetWeb\MyNewDotNetWeb\obj\Debug\netcoreapp2.1\MyNewDotNetWeb.csprojAssemblyReference.cache
