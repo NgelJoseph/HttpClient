@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyNewDotNetWeb.Clients;
 using Swashbuckle.AspNetCore.Swagger;
+using MyNewDotNetWeb.Handlers;
 
 namespace MyNewDotNetWeb
 {
@@ -21,11 +22,17 @@ namespace MyNewDotNetWeb
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Registering handlers
+            services.AddTransient<TimingHandler>();
+            services.AddTransient<ValidationHeaderHandler>();
+            
             //Default HttpClient
             services.AddHttpClient();
 
             // Named httpclient
-            services.AddHttpClient("NamedHttpClient", c => { c.BaseAddress = new Uri("https://www.google.com"); });
+            services.AddHttpClient("NamedHttpClient", c => { c.BaseAddress = new Uri("https://www.google.com"); })
+                .AddHttpMessageHandler<TimingHandler>() // This handler is on the outside and executes first on the way out and last on the way in.
+                .AddHttpMessageHandler<ValidationHeaderHandler>();  // This handler is on the inside, closest to the request.
 
             //Typed HttpClient
             services.AddHttpClient<TypedHttpClient>();
