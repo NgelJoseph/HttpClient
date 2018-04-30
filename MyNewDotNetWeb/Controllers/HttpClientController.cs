@@ -9,12 +9,12 @@ namespace MyNewDotNetWeb.Controllers
 {
     [Route("http")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class HttpClientController : ControllerBase
     {
         private readonly TypedHttpClient _crownBetClient;
         IHttpClientFactory _httpClientFactory;
 
-        public ValuesController(IHttpClientFactory httpClientFactory, TypedHttpClient crownBetClient)
+        public HttpClientController(IHttpClientFactory httpClientFactory, TypedHttpClient crownBetClient)
         {
             _crownBetClient = crownBetClient;
             _httpClientFactory = httpClientFactory;
